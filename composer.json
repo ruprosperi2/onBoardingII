@@ -1,0 +1,17 @@
+{
+    "name": "practica/onboardinii",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Practica\\Onboardinii\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrian",
+            "email": "adjbrz@gmail.com"
+        }
+    ],
+    "require": {}
+}
