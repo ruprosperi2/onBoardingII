@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"PruebaTest::test_sumar":0.001,"ProofTest::test_add":0.001}}
+{"version":1,"defects":[],"times":{"PruebaTest::test_sumar":0.001,"ProofTest::test_add":0.001,"LibraryTest::testAddBook":0.054,"LibraryTest::testRemoveBook":0,"LibraryTest::testListBooks":0,"LibraryTest::test_it_should_add_a_book":0.006,"LibraryTest::test_it_should_remove_a_book":0.001,"LibraryTest::test_it_should_list_books_correctly":0.001}}
