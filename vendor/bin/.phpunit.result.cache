@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"PruebaTest::test_sumar":0.001,"ProofTest::test_add":0.001}}
+{"version":1,"defects":{"InvoiceTest::testAddItem":8,"InvoiceTest::testInvoiceTotal":7},"times":{"PruebaTest::test_sumar":0.001,"ProofTest::test_add":0.001,"InvoiceTest::testAddItem":0.005,"InvoiceTest::testInvoiceTotal":0}}
