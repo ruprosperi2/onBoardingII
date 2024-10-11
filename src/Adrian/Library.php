@@ -8,7 +8,7 @@ final class Library
 {
     private $books = [];
 
-    public function addBook(Book $book)
+    public function addBook(Book $book) : void 
     {
         $this->books[] = $book;
     }
@@ -18,13 +18,7 @@ final class Library
         $this->books = array_filter($this->books, function($book) use ($title) {
         return $book->getTitle() !== $title ;
         });
-        // foreach ($this->books as $key => $book) {
-        //     if ($book->getTitle() === $title) {
-        //         unset($this->books[$key]);
-        //         return true;
-        //     }
-        // }
-        // return false;
+        
     }
 
     public function listBooks(): array
