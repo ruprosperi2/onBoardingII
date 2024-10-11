@@ -16,7 +16,7 @@ class InvoiceTest extends TestCase{
 
         $in->addItem($item);
 
-        $this->assertCount(1, $in->items);
+        $this->assertCount(1, $in->items());
     }
 
     public function testInvoiceTotal(){
