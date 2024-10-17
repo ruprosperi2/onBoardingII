@@ -8,7 +8,7 @@ final class Calculations{
         return $a+$b;
     }
 
-    public  function subt($a,$b){
-        return $a-$b;
+    public  function subt($a,$s){
+        return $a-$s;
     }
 }
